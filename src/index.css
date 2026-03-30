@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6B35F9;
+  --color-secondary: #FFD700;
+}
+
+@layer base {
+  body {
+    font-family: 'Outfit', sans-serif;
+    color: #1a1a1a;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .nav-link {
+    color: #475569; /* slate-600 */
+    transition: color 0.3s ease;
+    font-weight: 500;
+    font-size: 0.875rem; /* text-sm */
+    cursor: pointer;
+  }
+
+  .nav-link:hover {
+    color: #6B35F9; /* primary */
+  }
+
+  .btn-primary {
+    background: linear-gradient(to right, #6B35F9, #8E5AFA);
+    color: white;
+    padding: 0.5rem 1.5rem; /* px-6 py-2 */
+    border-radius: 9999px; /* rounded-full */
+    font-weight: 600; /* font-semibold */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); /* shadow-md */
+  }
+
+  .btn-primary:hover {
+    opacity: 0.9;
+  }
+}
