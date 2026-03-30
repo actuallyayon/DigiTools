@@ -2,7 +2,7 @@
 
 A modern digital product marketplace built with React, where users can browse, explore, and purchase premium AI tools, design assets, and productivity software.
 
-**Live Site:** [DigiTools](https://your-username.github.io/DigiTools/)
+**Live Site:** [DigiTools](https://actuallyayon.github.io/DigiTools/)
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@ A modern digital product marketplace built with React, where users can browse, e
 ## Getting Started
 
 ```bash
-git clone https://github.com/your-username/DigiTools.git
+git clone https://github.com/actuallyayon/DigiTools.git
 cd DigiTools
 npm install
 npm run dev
